@@ -1,0 +1,89 @@
+// Place all the styles related to the Landings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* Base styles */
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -54%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  height: 60%;
+}
+.logo{
+  display: inherit;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main_logo{
+  font-size: 48px;
+  color: #fff;
+  font-family:'Raleway';
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.audicle_heading{
+  color: white;
+  top: 370px;
+  position: relative;
+  font-size: 80px;
+  font-family: 'Lato';
+  font-weight: 300;
+
+}
+.homepage_heading_h1{
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+  position:relative;
+  color: #fff;
+  font-size: 2.3em;
+}
+.homepage_heading_h3{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+  position:relative;
+  font-size: 30px;
+}
+.homepage_heading_h3 a{
+  color: #fff;
+}
+
+div.sign_up_buttons{
+  text-align: center;
+  width: 230px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+div.sign_up_buttons:hover{
+  background-color: #428bca;
+}
+
+
+a.sign_up_in_link {
+  color: #fafafa;
+  text-align: center;
+
+  font-weight:200;
+  font-size: 2.1em;
+  line-height: 50px;
+  padding: 0 60px;
+
+}
+
