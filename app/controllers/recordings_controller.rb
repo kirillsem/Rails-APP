@@ -15,7 +15,6 @@ class RecordingsController < ApplicationController
     end
   end
   def create
-    # audio_file = recording_params[:audio_file]
     # orig_name = recording_params[:title]
     # AWS::S3::S3Object.store(orig_name, audio_file.read, 'audicle', :access => :public_read)
     # url = AWS::S3::S3Object.url_for(orig_name, "audicle", authenticated: false)
