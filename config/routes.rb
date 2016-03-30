@@ -4,10 +4,10 @@ Audicle::Application.routes.draw do
   get "/starred" => "users#starred", as:"starred"
 
   devise_for :users, controllers: {registrations: "users/registrations", sessions: "users/sessions", passwords: "users/passwords"}, skip: [:sessions, :registrations]
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  #The priority is based upon order of creation: first created -> highest priority.
+  #See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
+  #You can have the root of your site routed with "root"
   authenticated :user do
     root to: "dashboards#index", as: :authenticated_root
   end
